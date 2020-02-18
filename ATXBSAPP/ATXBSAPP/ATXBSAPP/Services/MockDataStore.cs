@@ -14,7 +14,7 @@ namespace ATXBSAPP.Services
         {
             items = new List<Item>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Primer Articulo", Description="Esta es una descripcion del Articulo" },
+                new Item { Id = Guid.NewGuid().ToString(), Text = "First", Description="Esta es una descripcion del Articulo" },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Segundo Articulo", Description="Descrpcion de contenido." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
                 new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
